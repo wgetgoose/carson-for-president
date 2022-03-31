@@ -1,13 +1,27 @@
 body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     margin: 0;
     color: white;
+}
+
+a {
+    color: inherit;
 }
 
 ul {
     list-style: none;
     padding-left: 0;
+}
+
+ol {
+    padding: 0;
+}
+
+ol li {
+    font-size: 1.2rem;
+    padding: 0.3rem 0rem 0.3rem 1rem;
 }
 
 /* remove damn button styles */
@@ -43,8 +57,11 @@ button, input[type="submit"], input[type="reset"] {
 
 .line {
     border-bottom: 0.1rem white solid;
-    width: 10rem;
-    margin: 0.5rem auto;
+    width: 20rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #yt-wrapper {
@@ -71,4 +88,11 @@ button, input[type="submit"], input[type="reset"] {
     font-size: 1.5rem;
     padding: 1.5rem;
     flex-shrink: 1;
+}
+
+.questions {
+    width: 55vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
 }
