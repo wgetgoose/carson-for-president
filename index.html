@@ -6,33 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carson for President!</title>
     <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>There are</h1>
-    <h1><span id="days"></span> days </h1>
-    <h1><span id="hours"></span> hours, </h1>
-    <h1><span id="minutes"></span> minutes, </h1>
-    <h1> and <span id="seconds"></span> seconds </h1>
-    <h1> until the election ends. </h1>
-    <h2>Vote with the buttons below!</h2>
-    <h3>Endorsements</h3>
-    <hr>
-    <div>
-        <strong>
-            <ul>
-                <li> Vice President: Chiara Bianchi </li>
-                <li> Secretary: Savannah Sheikh </li>
-                <li> Treasurer: Madalynn Mendoza </li>
-            </ul>
-        </strong>
-    </div>
-    <h3> Tap on the buttons below for voting links </h3>
-    <hr>
-    <div id="buttons">
-        <button id="freshman"> Current Freshman! Tap here.</button>
-        <button id="sophomore"> Current Sophomores! Tap here.</button>
-        <button id="junior"> Current Juniors! Tap here.</button>
+    <div id="bg-image">
+        <div id=blur>
+            <h1 style="margin-top: 0;"> Vote ASAP! Only...</h1>
+            <h1><span id="days"></span> days </h1>
+            <h1><span id="hours"></span> hours, </h1>
+            <h1><span id="minutes"></span> minutes, </h1>
+            <h1> and <span id="seconds"></span> seconds </h1>
+            <h1> remaining until the election ends. </h1>
+            <h2>Vote with the buttons below!</h2>
+            <hr>
+            <h2>Endorsements</h2>
+            <div style="font-size: 1.5rem;">
+                <strong>
+                    <ul>
+                        <li> Vice President: Chiara Bianchi </li>
+                        <li> Secretary: Savannah Sheikh </li>
+                        <li> Treasurer: Madalynn Mendoza </li>
+                    </ul>
+                </strong>
+            </div>
+            <h2> Tap on the buttons below to vote! </h2>
+            <hr>
+            <div id="buttons">
+                <strong>
+                    <button class="voting"> Current Freshman! Tap here.</button>
+                    <button class="voting"> Current Sophomores! Tap here.</button>
+                    <button class="voting"> Current Juniors! Tap here.</button>
+                </strong>
+            </div>
+        </div>
     </div>
 </body>
 </html>
