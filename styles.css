@@ -101,15 +101,15 @@ button, input[type="submit"], input[type="reset"] {
  */
 
 .button-wrap {
-    display: none;
-    /* display: flex; */
+    /* display: none; */
+    display: flex;
     flex-flow: column wrap;
 }
 
 
-/* #novote {
+#novote {
     display: none;
-} */
+}
 
 .questions {
     width: 55vw;
