@@ -85,14 +85,27 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 .voting {
-    /* display: inline-block; */
-    display: none;
+    text-decoration: none;
+    display: inline-block;
     font-size: 1.5rem;
     padding: 1.5rem;
     flex-shrink: 1;
-    margin: auto;
+    margin: 0.5rem auto;
     background-color: rgba(124, 131, 131, 0.7);
 }
+
+/* 
+    Below are comments to switch from the voting buttons being
+    hidden to being live. change button-wrap to flex to see it 
+    on the page, and disable the vote on monday reminder with the section below that
+ */
+
+.button-wrap {
+    display: none;
+    /* display: flex; */
+    flex-flow: column wrap;
+}
+
 
 /* #novote {
     display: none;
