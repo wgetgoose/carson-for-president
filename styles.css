@@ -85,10 +85,18 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 .voting {
+    /* display: inline-block; */
+    display: none;
     font-size: 1.5rem;
     padding: 1.5rem;
     flex-shrink: 1;
+    margin: auto;
+    background-color: rgba(124, 131, 131, 0.7);
 }
+
+/* #novote {
+    display: none;
+} */
 
 .questions {
     width: 55vw;
